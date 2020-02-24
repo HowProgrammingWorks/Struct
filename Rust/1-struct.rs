@@ -15,14 +15,14 @@ fn main() {
         name: String::from("Marcus"),
         city: String::from("Roma"),
         born: Date {
-          day: 26,
-          month: 4,
-          year: 121,
+            day: 26,
+            month: 4,
+            year: 121,
         },
     };
 
     println!(
-      "Name: {}\nCity: {}\nBorn: {}-{}-{}\n",
-      p1.name, p1.city, p1.born.year, p1.born.month, p1.born.day
+        "Name: {}\nCity: {}\nBorn: {}-{}-{}\n",
+        p1.name, p1.city, p1.born.year, p1.born.month, p1.born.day
     );
 }
