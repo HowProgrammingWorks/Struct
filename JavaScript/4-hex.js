@@ -1,6 +1,6 @@
 'use strict';
 
-const fs = require('fs');
+const fs = require('node:fs');
 
 const v8File = './3-file.dat';
 fs.readFile(v8File, (err, data) => {
